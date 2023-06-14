@@ -43,7 +43,7 @@ function solution(n) {
 
 //bottom-up
 function solution(n) {
-    const memo = new Array(n+1).fill(0);
+    let memo = new Array(n+1).fill(0);
     const x = 1234567;
     
     memo[0] = 0;
