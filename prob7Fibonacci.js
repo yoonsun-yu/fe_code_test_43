@@ -19,7 +19,7 @@
 // top-down
 // 최대값으로 설정 하면 RangeError: Maximum call stack size exceeded
 function solution(n) {
-    const memo = new Array(n + 1).fill(0);
+    let memo = new Array(n + 1).fill(0);
     const x = 1234567;
 
     function fibonacci(n) {
