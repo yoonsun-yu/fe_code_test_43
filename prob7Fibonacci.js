@@ -42,6 +42,7 @@ function solution(n) {
 }
 
 //bottom-up
+//정답
 function solution(n) {
     let memo = new Array(n+1).fill(0);
     const x = 1234567;
