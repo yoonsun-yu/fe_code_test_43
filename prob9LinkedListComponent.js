@@ -16,7 +16,7 @@ var numComponents = function(head, nums) {
     let componentCnt = 0;
     let node = head;
     let sequentialCond = false;
-    let index = 0 ;
+    let index = -1 ;
 
     while(node) {
 
